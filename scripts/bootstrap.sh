@@ -22,9 +22,17 @@ sudo /usr/sbin/installer -pkg ./$PKG_FILE -target /
 echo
 echo Done with running installer.
 echo
+echo Cleaning up by deleting installer
+echo
+rm ./$PKG_FILE
+echo
 echo Attempting to install coffee-script globally.
 echo
 sudo npm install -g coffee-script
+echo
+echo Attempting to find coffee using \'which\' command.
+echo
+which coffee
 echo
 echo Done with bootstrap script.
 echo
