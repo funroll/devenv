@@ -1,5 +1,12 @@
 #!/bin/bash
-BASE_URL=https://raw.githubusercontent.com/funroll/devenv/master
+set -x
+BASE_USER=funroll
+BASE_REPO=devenv
+BASE_URL=https://raw.githubusercontent.com/$BASE_USER/$BASE_REPO/master
+remote_url ()
+{
+	
+}
 remote_run ()
 {
 	curl $BASE_URL/$1 | sh
