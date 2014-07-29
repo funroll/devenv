@@ -6,3 +6,4 @@ remote_run ()
 }
 
 remote_run bootstrap-coffee.sh
+remote_run main.coffee
