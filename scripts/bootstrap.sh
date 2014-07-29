@@ -19,10 +19,12 @@ echo
 echo Attempting to run node.js installer without requiring user interaction.
 echo
 sudo /usr/sbin/installer -pkg ./$PKG_FILE -target /
+echo
 echo Done with running installer.
 echo
 echo Attempting to install coffee-script globally.
 echo
 sudo npm install -g coffee-script
+echo
 echo Done with bootstrap script.
 echo
