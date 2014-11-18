@@ -4,6 +4,10 @@ remote_run ()
 {
 	curl $BASE_URL/$1 | sh
 }
+remote_coffee ()
+{
+	curl $BASE_URL/$1 | coffee
+}
 
 remote_run bootstrap-coffee.sh
-remote_run main.coffee
+remote_coffee main.coffee
