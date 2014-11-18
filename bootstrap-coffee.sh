@@ -38,9 +38,9 @@ echo Attempting to install shelljs globally.
 echo
 sudo npm install -g shelljs
 echo
-echo Attempting to find shelljs using \'which\' command.
+echo Attempting to find shjs using \'which\' command.
 echo
-which shelljs
+which shjs
 echo
 echo Done with bootstrap script.
 echo
