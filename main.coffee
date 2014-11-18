@@ -1,5 +1,5 @@
 #!/usr/bin/env coffee
-echo = console.log
+require 'shelljs/global'
 
 main = () ->
 	echo 'begin >>>>>'
