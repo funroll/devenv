@@ -9,7 +9,7 @@ echo
 echo Done with first time use of sudo.
 echo
 
-NODE_VERSION=v0.10.29
+NODE_VERSION=v0.10.33
 PKG_FILE=node-$NODE_VERSION.pkg
 echo Attempting to download the OS X installer for nodejs at version $NODE_VERSION.
 echo
