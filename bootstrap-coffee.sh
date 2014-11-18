@@ -34,5 +34,13 @@ echo Attempting to find coffee using \'which\' command.
 echo
 which coffee
 echo
+echo Attempting to install shelljs globally.
+echo
+sudo npm install -g shelljs
+echo
+echo Attempting to find shelljs using \'which\' command.
+echo
+which shelljs
+echo
 echo Done with bootstrap script.
 echo
