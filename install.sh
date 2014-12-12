@@ -8,7 +8,7 @@ remote_coffee ()
 {
 	curl $BASE_URL/$1 > main.coffee
 	chmod u+x main.coffee
-	./main.coffee
+	shjs ./main.coffee
 }
 
 remote_run bootstrap-coffee.sh
